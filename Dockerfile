@@ -5,6 +5,7 @@ MAINTAINER delivery-engineering@netflix.com
 ENV FRONT50_HOST front50
 ENV DECK_HOST deck
 ENV ECHO_HOST echo
+ENV ORCA_HOST orca
 
 COPY . workdir/
 
