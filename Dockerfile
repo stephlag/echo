@@ -2,6 +2,10 @@ FROM java:8
 
 MAINTAINER delivery-engineering@netflix.com
 
+ENV FRONT50_HOST front50
+ENV DECK_HOST deck
+ENV ECHO_HOST echo
+
 COPY . workdir/
 
 WORKDIR workdir
