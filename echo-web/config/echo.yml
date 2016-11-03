@@ -2,16 +2,16 @@ spinnaker:
   cassandra:
     cluster: 'spinnaker'
     keyspace: 'echo'
-  baseUrl: 'http://${DECK_HOST:deck}:9000'
+  baseUrl: 'http://${DECK_HOST:deck}:${DECK_PORT:9000}'
 
 echo:
-  baseUrl: 'http://${ECHO_HOST:echo}:8080'
+  baseUrl: 'http://${ECHO_HOST:echo}:${ECHO_PORT:8089}'
 
 front50:
-  baseUrl: 'http://${FRONT50_HOST:front50}:8081'
+  baseUrl: 'http://${FRONT50_HOST:front50}:${FRONT50_PORT:8080}'
 
 orca:
-  baseUrl: 'http://${ORCA_HOST:orca}:8083'
+  baseUrl: 'http://${ORCA_HOST:orca}:${ORCA_PORT:8083}'
 
 search:
   index: 'event_history'
