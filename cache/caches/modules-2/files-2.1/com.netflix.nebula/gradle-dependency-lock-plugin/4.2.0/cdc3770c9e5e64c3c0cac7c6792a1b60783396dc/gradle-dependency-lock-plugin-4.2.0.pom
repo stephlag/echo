@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.netflix.nebula</groupId>
+  <artifactId>gradle-dependency-lock-plugin</artifactId>
+  <version>4.2.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.netflix.nebula</groupId>
+      <artifactId>gradle-scm-plugin</artifactId>
+      <version>2.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <name>gradle-dependency-lock-plugin</name>
+  <description>Gradle plugin to allow locking of dynamic dependency versions</description>
+  <developers>
+    <developer>
+      <id>rspieldenner</id>
+      <name>Rob Spieldenner</name>
+      <email>rob.spieldenner@gmail.com</email>
+    </developer>
+    <developer>
+      <id>nadavc</id>
+      <name>Nadav Cohen</name>
+      <email>nadavcoh@gmail.com</email>
+    </developer>
+  </developers>
+  <properties>
+    <nebula_Manifest_Version>1.0</nebula_Manifest_Version>
+    <nebula_Implementation_Title>com.netflix.nebula#gradle-dependency-lock-plugin;4.2.0</nebula_Implementation_Title>
+    <nebula_Implementation_Version>4.2.0</nebula_Implementation_Version>
+    <nebula_Built_Status>integration</nebula_Built_Status>
+    <nebula_Built_By>travis</nebula_Built_By>
+    <nebula_Built_OS>Linux</nebula_Built_OS>
+    <nebula_Build_Date>2016-01-15_21:56:30</nebula_Build_Date>
+    <nebula_Gradle_Version>2.10</nebula_Gradle_Version>
+    <nebula_Module_Source></nebula_Module_Source>
+    <nebula_Module_Origin>https://github.com/nebula-plugins/gradle-dependency-lock-plugin.git</nebula_Module_Origin>
+    <nebula_Change>7399355</nebula_Change>
+    <nebula_Branch>73993558b82916ddeba32a257b7e11eb3806910d</nebula_Branch>
+    <nebula_Build_Host>testing-worker-linux-docker-5ee19aa7-3201-linux-8</nebula_Build_Host>
+    <nebula_Build_Job>LOCAL</nebula_Build_Job>
+    <nebula_Build_Number>LOCAL</nebula_Build_Number>
+    <nebula_Build_Id>LOCAL</nebula_Build_Id>
+    <nebula_Created_By>1.7.0_76-b13 (Oracle Corporation)</nebula_Created_By>
+    <nebula_Build_Java_Version>1.7.0_76</nebula_Build_Java_Version>
+    <nebula_Module_Owner>rob.spieldenner@gmail.com,nadavcoh@gmail.com</nebula_Module_Owner>
+    <nebula_Module_Email>rob.spieldenner@gmail.com,nadavcoh@gmail.com</nebula_Module_Email>
+    <nebula_X_Compile_Target_JDK>1.7</nebula_X_Compile_Target_JDK>
+    <nebula_X_Compile_Source_JDK>1.7</nebula_X_Compile_Source_JDK>
+  </properties>
+  <url>https://github.com/nebula-plugins/gradle-dependency-lock-plugin</url>
+  <scm>
+    <url>https://github.com/nebula-plugins/gradle-dependency-lock-plugin.git</url>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+</project>

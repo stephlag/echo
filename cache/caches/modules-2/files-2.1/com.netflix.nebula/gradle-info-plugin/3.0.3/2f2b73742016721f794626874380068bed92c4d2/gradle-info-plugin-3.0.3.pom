@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.netflix.nebula</groupId>
+  <artifactId>gradle-info-plugin</artifactId>
+  <version>3.0.3</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.perforce</groupId>
+      <artifactId>p4java-jfrog</artifactId>
+      <version>2011.1.297684</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.netflix.nebula</groupId>
+      <artifactId>gradle-contacts-plugin</artifactId>
+      <version>2.2.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.eclipse.jgit</groupId>
+      <artifactId>org.eclipse.jgit</artifactId>
+      <version>3.2.0.201312181205-r</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.tmatesoft.svnkit</groupId>
+      <artifactId>svnkit</artifactId>
+      <version>1.8.5</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <name>gradle-info-plugin</name>
+  <description>Gradle plugin collect and provide information about the environment</description>
+  <developers>
+    <developer>
+      <id>quidryan</id>
+      <name>Justin Ryan</name>
+      <email>justin@halfempty.org</email>
+    </developer>
+  </developers>
+  <properties>
+    <nebula_Manifest_Version>1.0</nebula_Manifest_Version>
+    <nebula_Implementation_Title>com.netflix.nebula#gradle-info-plugin;3.0.3</nebula_Implementation_Title>
+    <nebula_Implementation_Version>3.0.3</nebula_Implementation_Version>
+    <nebula_Built_Status>integration</nebula_Built_Status>
+    <nebula_Built_By>travis</nebula_Built_By>
+    <nebula_Built_OS>Linux</nebula_Built_OS>
+    <nebula_Build_Date>2015-09-29_23:28:46</nebula_Build_Date>
+    <nebula_Gradle_Version>2.7</nebula_Gradle_Version>
+    <nebula_Module_Source></nebula_Module_Source>
+    <nebula_Module_Origin>https://github.com/nebula-plugins/gradle-info-plugin.git</nebula_Module_Origin>
+    <nebula_Change>5ae3b41</nebula_Change>
+    <nebula_Branch>5ae3b410851152bc6206c9ecb4a617d415918829</nebula_Branch>
+    <nebula_Build_Host>testing-worker-linux-docker-f6e2a81f-3226-linux-7</nebula_Build_Host>
+    <nebula_Build_Job>LOCAL</nebula_Build_Job>
+    <nebula_Build_Number>LOCAL</nebula_Build_Number>
+    <nebula_Build_Id>LOCAL</nebula_Build_Id>
+    <nebula_Created_By>1.7.0_76-b13 (Oracle Corporation)</nebula_Created_By>
+    <nebula_Build_Java_Version>1.7.0_76</nebula_Build_Java_Version>
+    <nebula_Module_Owner>justin@halfempty.org</nebula_Module_Owner>
+    <nebula_Module_Email>justin@halfempty.org</nebula_Module_Email>
+    <nebula_X_Compile_Target_JDK>1.7</nebula_X_Compile_Target_JDK>
+    <nebula_X_Compile_Source_JDK>1.7</nebula_X_Compile_Source_JDK>
+  </properties>
+  <url>https://github.com/nebula-plugins/gradle-info-plugin</url>
+  <scm>
+    <url>https://github.com/nebula-plugins/gradle-info-plugin.git</url>
+  </scm>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+</project>

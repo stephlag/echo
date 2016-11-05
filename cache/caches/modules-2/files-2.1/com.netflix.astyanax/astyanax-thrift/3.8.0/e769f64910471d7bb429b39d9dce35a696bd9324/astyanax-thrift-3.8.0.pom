@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.netflix.astyanax</groupId>
+  <artifactId>astyanax-thrift</artifactId>
+  <version>3.8.0</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.netflix.astyanax</groupId>
+      <artifactId>astyanax-core</artifactId>
+      <version>3.8.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.netflix.astyanax</groupId>
+      <artifactId>astyanax-cassandra</artifactId>
+      <version>3.8.0</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.cassandra</groupId>
+      <artifactId>cassandra-thrift</artifactId>
+      <version>2.0.12</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>org.apache.thrift</groupId>
+      <artifactId>libthrift</artifactId>
+      <version>0.9.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <name>astyanax-thrift</name>
+  <description>astyanax-thrift</description>
+  <developers>
+    <developer>
+      <id>netflixgithub</id>
+      <name>Netflix Open Source Development</name>
+      <email>talent@netflix.com</email>
+    </developer>
+  </developers>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <properties>
+    <nebula_Manifest_Version>1.0</nebula_Manifest_Version>
+    <nebula_Implementation_Title>com.netflix.astyanax#astyanax-thrift;3.8.0</nebula_Implementation_Title>
+    <nebula_Implementation_Version>3.8.0</nebula_Implementation_Version>
+    <nebula_Built_Status>integration</nebula_Built_Status>
+    <nebula_Built_By>jenkins</nebula_Built_By>
+    <nebula_Built_OS>Linux</nebula_Built_OS>
+    <nebula_Build_Date>2015-07-22_13:07:08</nebula_Build_Date>
+    <nebula_Gradle_Version>2.2.1</nebula_Gradle_Version>
+    <nebula_Module_Owner>talent@netflix.com</nebula_Module_Owner>
+    <nebula_Module_Email>talent@netflix.com</nebula_Module_Email>
+    <nebula_Module_Source>/astyanax-thrift</nebula_Module_Source>
+    <nebula_Module_Origin>git@github.com:Netflix/astyanax.git</nebula_Module_Origin>
+    <nebula_Change>a6161c5</nebula_Change>
+    <nebula_Build_Host>https://netflixoss.ci.cloudbees.com/</nebula_Build_Host>
+    <nebula_Build_Job>NetflixOSS/astyanax/astyanax-release</nebula_Build_Job>
+    <nebula_Build_Number>27</nebula_Build_Number>
+    <nebula_Build_Id>2015-07-22_20-06-21</nebula_Build_Id>
+    <nebula_Created_By>1.7.0_79-b15 (Oracle Corporation)</nebula_Created_By>
+    <nebula_Build_Java_Version>1.7.0_79</nebula_Build_Java_Version>
+    <nebula_X_Compile_Target_JDK>1.6</nebula_X_Compile_Target_JDK>
+    <nebula_X_Compile_Source_JDK>1.6</nebula_X_Compile_Source_JDK>
+  </properties>
+  <scm>
+    <url>scm:git@github.com:Netflix/astyanax.git</url>
+    <connection>scm:git@github.com:Netflix/astyanax.git</connection>
+  </scm>
+  <url>https://github.com/Netflix/astyanax</url>
+</project>

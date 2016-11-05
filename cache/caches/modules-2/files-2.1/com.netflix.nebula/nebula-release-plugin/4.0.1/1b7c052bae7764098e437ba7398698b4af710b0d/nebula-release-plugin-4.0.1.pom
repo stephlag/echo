@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.netflix.nebula</groupId>
+  <artifactId>nebula-release-plugin</artifactId>
+  <version>4.0.1</version>
+  <dependencies>
+    <dependency>
+      <groupId>com.netflix.nebula</groupId>
+      <artifactId>nebula-core</artifactId>
+      <version>3.0.1</version>
+      <scope>runtime</scope>
+    </dependency>
+    <dependency>
+      <groupId>com.netflix.nebula</groupId>
+      <artifactId>nebula-bintray-plugin</artifactId>
+      <version>3.3.2</version>
+      <scope>runtime</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>com.jfrog.bintray.gradle</groupId>
+      <artifactId>gradle-bintray-plugin</artifactId>
+      <version>1.5</version>
+      <scope>runtime</scope>
+      <optional>true</optional>
+    </dependency>
+    <dependency>
+      <groupId>org.ajoberstar</groupId>
+      <artifactId>gradle-git</artifactId>
+      <version>1.4.1</version>
+      <scope>runtime</scope>
+    </dependency>
+  </dependencies>
+  <name>nebula-release-plugin</name>
+  <description>Release opinions on top of gradle-git</description>
+  <licenses>
+    <license>
+      <name>The Apache Software License, Version 2.0</name>
+      <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+      <distribution>repo</distribution>
+    </license>
+  </licenses>
+  <properties>
+    <nebula_Manifest_Version>1.0</nebula_Manifest_Version>
+    <nebula_Implementation_Title>com.netflix.nebula#nebula-release-plugin;4.0.1</nebula_Implementation_Title>
+    <nebula_Implementation_Version>4.0.1</nebula_Implementation_Version>
+    <nebula_Built_Status>integration</nebula_Built_Status>
+    <nebula_Built_By>travis</nebula_Built_By>
+    <nebula_Built_OS>Linux</nebula_Built_OS>
+    <nebula_Build_Date>2016-02-05_22:27:47</nebula_Build_Date>
+    <nebula_Gradle_Version>2.10</nebula_Gradle_Version>
+    <nebula_Module_Source></nebula_Module_Source>
+    <nebula_Module_Origin>https://github.com/nebula-plugins/nebula-release-plugin.git</nebula_Module_Origin>
+    <nebula_Change>08d5c02</nebula_Change>
+    <nebula_Branch>08d5c02250df1f7ea76dbcdac3009628db63e948</nebula_Branch>
+    <nebula_Build_Host>testing-worker-linux-docker-486037cd-3370-linux-5</nebula_Build_Host>
+    <nebula_Build_Job>LOCAL</nebula_Build_Job>
+    <nebula_Build_Number>LOCAL</nebula_Build_Number>
+    <nebula_Build_Id>LOCAL</nebula_Build_Id>
+    <nebula_Created_By>1.7.0_76-b13 (Oracle Corporation)</nebula_Created_By>
+    <nebula_Build_Java_Version>1.7.0_76</nebula_Build_Java_Version>
+    <nebula_Module_Owner>rob.spieldenner@gmail.com</nebula_Module_Owner>
+    <nebula_Module_Email>rob.spieldenner@gmail.com</nebula_Module_Email>
+    <nebula_X_Compile_Target_JDK>1.7</nebula_X_Compile_Target_JDK>
+    <nebula_X_Compile_Source_JDK>1.7</nebula_X_Compile_Source_JDK>
+  </properties>
+  <url>https://github.com/nebula-plugins/nebula-release-plugin</url>
+  <scm>
+    <url>https://github.com/nebula-plugins/nebula-release-plugin.git</url>
+  </scm>
+  <developers>
+    <developer>
+      <id>rspieldenner</id>
+      <name>Rob Spieldenner</name>
+      <email>rob.spieldenner@gmail.com</email>
+    </developer>
+  </developers>
+</project>
