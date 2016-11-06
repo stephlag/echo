@@ -4,7 +4,8 @@ spinnaker:
     cluster: 'spinnaker'
     keyspace: 'echo'
   baseUrl: 'http://${DECK_HOST:deck}:${DECK_PORT:9000}'
-
+server:
+  port: ${ECHO_PORT:8089}
 echo:
   baseUrl: 'http://${ECHO_HOST:echo}:${ECHO_PORT:8089}'
 
